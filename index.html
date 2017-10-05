@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Wolfenstein 3D!</title>
+
+		<link type="text/css" rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<!-- viewport -->
+		<div id="container">
+			<div id="game">
+				<div id="viewportContain">
+					<div id="loading">
+						<img src="textures/getpsyched.png"/>
+					</div>
+					<div id="endGame1"></div>
+					<div id="endGame2"></div>
+					<div id="endGame3"></div>
+					<div id="ceiling"></div>
+					<div id="floor"></div>
+					<div id="weapon"></div>
+					<div id="viewport"></div>
+				</div>
+				<div id="ui">
+					<table>
+						<tr>
+							<td id="name"></td>
+							<td id="scoreCont"></td>
+							<td id="healthCont"></td>
+							<td id="ammoCont"></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="instruct">
+				<p>
+					Controls:<br/><br/>
+					Arrow Keys: Move forward and rotate<br/>
+					X: Shoot <br/>
+					Z: Hold to strafe <br/>
+					1-4: Switch weapon<br/>
+					Shift: Sprint<br/>
+					Space: Interact
+				</p>
+			</div>
+		</div>
+
+		<!-- scripts -->
+		<script type="text/javascript" src="js/fpsmeter.min.js"></script>
+		<script type="text/javascript" src="js/objects.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+	</body>
+</html>
